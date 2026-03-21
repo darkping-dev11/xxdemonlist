@@ -32,11 +32,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    /* Geçişli pembe arka plan */
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
 }
 
 header,
 main {
-    background-color: var(--color-background);
     color: var(--color-on-background);
     display: grid;
     grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(16em, 1fr);
@@ -76,6 +77,8 @@ main {
     display: grid;
     grid-template-rows: minmax(0, 1fr);
     column-gap: 2rem;
+    /* Geçişli pembe arka plan main için */
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
 }
 
 main > div {
