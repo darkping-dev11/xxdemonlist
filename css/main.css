@@ -138,3 +138,8 @@ input[type="checkbox"] {
 .dropdown-menu a:hover {
     background: #f5e6ff;
 }
+.nav__actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
