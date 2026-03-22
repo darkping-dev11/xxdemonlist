@@ -38,7 +38,8 @@ export default {
                             </td>
                             <td class="user" :class="{ 'active': selected == i }">
                                 <button @click="selected = i">
-                                    <span class="type-label-lg">{{ ientry.user }}</span>
+                                    <img v-if="getFlag(ientry.user)" :src="getFlag(ientry.user)" class="flag">
+                                <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
                             </td>
                         </tr>
@@ -46,7 +47,11 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
+                        <h1>
+                  #{{ selected + 1 }}
+                   <img v-if="getFlag(entry.user)" :src="getFlag(entry.user)" class="flag">
+  {{ entry.user }}
+</h1>
                         <h3>{{ entry.total }}</h3>
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
                         <table class="table">
