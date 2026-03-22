@@ -6,6 +6,8 @@
     "verifier": "unknwon verifier",
     "verification": "#",
     "percentToQualify": "100",
+    "version": "2.2",
+	"alternating": "No",
     "records": [
         {
             "user": "unknown player",
