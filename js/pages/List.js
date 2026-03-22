@@ -204,7 +204,7 @@ export default {
         <p>You are allowed to use Show Hitboxes on Death, but your record will be denied if you use it for levels that are hard to see or are invisible, for ex. <b>tueml cereal</b>.</p>
         <p>Once a level falls onto the Legacy List, we no longer accept records for them.</p>
 		<h4>Allowed Hacks</h4>
-		<p>If you want to make sure if some of the hacks that you use in your mod menu are allowed or not allowed, we will provide a sheet <a style="color: #03bafc" href="https://docs.google.com/spreadsheets/d/1s57VjhT-o9xGz-wYekG9jzxyFDtZkrRAVZxvFQrSMYE/edit?gid=1738567657#gid=1738567657">here</a> to check if one of the hacks you are using is again, either allowed or not allowed. If you want to report any issues or ask questions, ask the staff members. The sheet will be kept updated, so everything you see is not final!</p>
+		<p>If you want to make sure if some of the hacks that you use in your mod menu are allowed or not allowed, we will provide a sheet <a style="color: #fa00ff" href="https://docs.google.com/spreadsheets/d/1s57VjhT-o9xGz-wYekG9jzxyFDtZkrRAVZxvFQrSMYE/edit?gid=1738567657#gid=1738567657">here</a> to check if one of the hacks you are using is again, either allowed or not allowed. If you want to report any issues or ask questions, ask the staff members. The sheet will be kept updated, so everything you see is not final!</p>
         </div>
         </div>
       </div>
