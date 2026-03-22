@@ -95,3 +95,46 @@ input[type="checkbox"] {
     cursor: pointer;
     margin: 0;
 }
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-btn {
+    background: white;
+    color: #d48ce6;
+    border: none;
+    padding: 8px 14px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background: #f0f0f0;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    min-width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 999;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.dropdown-menu a:hover {
+    background: #f5e6ff;
+}
