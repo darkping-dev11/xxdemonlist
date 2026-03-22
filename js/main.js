@@ -19,17 +19,16 @@ const app = Vue.createApp({
     async mounted() {
         const res = await fetch("/data/flags.json");
         this.flags = await res.json();
-    },
-
-    methods: {
-        getFlag(username) {
-            const code = this.flags[username];
-            if (!code) return null;
-
-            return `https://flagcdn.com/w40/${code.toLowerCase()}.png`;
-        }
     }
 });
+
+// 🔥 GLOBAL FLAG FUNCTION (EN ÖNEMLİ KISIM)
+app.config.globalProperties.getFlag = function(username) {
+    const code = this.flags?.[username];
+    if (!code) return null;
+
+    return `https://flagcdn.com/w40/${code.toLowerCase()}.png`;
+};
 
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),
