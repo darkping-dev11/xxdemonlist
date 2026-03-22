@@ -1,37 +1,22 @@
 [
     {
         "role": "owner",
-        "name": "pixelfactorial",
-        "link": "https://www.youtube.com/@pixelfactorial"
-    },
-    {
-        "role": "owner",
-        "name": "Sadisyourlife",
-        "link": "https://www.youtube.com/@justaguy8255"
+        "name": "darkping",
+        "link": "#"
     },
     {
         "role": "admin",
-        "name": "blightedcoconut",
-        "link": "https://www.youtube.com/@Blightedcoconut"
-    },
-    {
-        "role": "admin",
-        "name": "tFluffy",
-        "link": "https://www.youtube.com/channel/UCrl1b2P94n21Z3CEVHhFO6Q"
+        "name": "unknown",
+        "link": "#"
     },
     {
         "role": "helper",
-        "name": "MiRPacK19",
-        "link": "https://www.youtube.com/@mirpack19"
+        "name": "unknown",
+        "link": "#"
     },
     {
         "role": "dev",
-        "name": "aelzfr",
-        "link": "https://www.youtube.com/@aelzfr"
-    },
-    {
-        "role": "dev",
-        "name": "snail",
-        "link": "https://github.com/snailmusic"
+        "name": "darkping",
+        "link": "#"
     }
 ]
