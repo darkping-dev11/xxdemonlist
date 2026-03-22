@@ -55,21 +55,15 @@
                             :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
                             alt=""
                         />
-                    </button>
-                    <a class="nav__icon" href="https://www.youtube.com/@ConsistencyChallengeList-y9c">
-                        <img src="/assets/youtube.svg" alt="Youtube Logo"/>
-                    <a
-                        class="nav__cta type-label-lg"
-                        href="https://discord.gg/zNtDVvpHTN"
-                        target="_blank"
-                        >Join Server</a
-                    >
-                        <a
-                        class="nav__cta type-label-lg"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLScuFx4o27dZxusyAqrTnlEz1ALuY-elL-kKQD3P-TpQjQG_4w/viewform?usp=dialog"
-                        target="_blank"
-                        >Submit Record</a
-                    >
+                    <div class="menu-container">
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <div class="dropdown-menu" id="dropdownMenu">
+        <a href="/submit">Submit Record</a>
+        <a href="https://discord.gg/YOUR_LINK" target="_blank">Discord Server</a>
+        <a href="https://youtube.com/YOUR_CHANNEL" target="_blank">Youtube</a>
+    </div>
+</div>
                 </div>
             </nav>
         </header>
