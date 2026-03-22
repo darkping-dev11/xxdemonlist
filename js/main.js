@@ -9,13 +9,32 @@ export const store = Vue.reactive({
 });
 
 const app = Vue.createApp({
-    data: () => ({ store }),
+    data() {
+        return {
+            store,
+            flags: {}
+        };
+    },
+
+    async mounted() {
+        const res = await fetch("/data/flags.json");
+        this.flags = await res.json();
+    },
+
+    methods: {
+        getFlag(username) {
+            const code = this.flags[username];
+            if (!code) return null;
+
+            return `https://flagcdn.com/w40/${code.toLowerCase()}.png`;
+        }
+    }
 });
+
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),
     routes,
 });
 
 app.use(router);
-
 app.mount('#app');
