@@ -47,24 +47,28 @@
                     <span class="type-label-lg">Packs</span>
                 </router-link>
                 <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    <div class="menu-container">
-    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+                    <div class="nav__actions">
+    <button
+        class="nav__icon"
+        @click.prevent="store.toggleDark()"
+    >
+        <img
+            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+            alt=""
+        />
+    </button>
 
-    <div class="dropdown-menu" id="dropdownMenu">
-        <a href="/submit">Submit Record</a>
-        <a href="https://discord.gg/YOUR_LINK" target="_blank">Discord Server</a>
-        <a href="https://youtube.com/YOUR_CHANNEL" target="_blank">Youtube</a>
+    <!-- MENÜ BURADA OLACAK -->
+    <div class="menu-container">
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="/submit">Submit Record</a>
+            <a href="https://discord.gg/YOUR_LINK" target="_blank">Discord Server</a>
+            <a href="https://youtube.com/YOUR_CHANNEL" target="_blank">Youtube</a>
+        </div>
     </div>
 </div>
-                </div>
             </nav>
         </header>
         <router-view :class="{ dark: store.dark }"></router-view>
