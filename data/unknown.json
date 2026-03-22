@@ -1,0 +1,18 @@
+{
+    "id": 123456789,
+    "name": "unknown",
+    "author": "unknown creator",
+    "creators": ["unknown creator"],
+    "verifier": "unknwon verifier",
+    "verification": "#",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "unknown player",
+            "link": "#",
+            "hz": "180",
+            "percent": 100
+        }
+    ]
+
+}
